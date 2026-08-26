@@ -1,17 +1,32 @@
-# lunaric_app
+# 🌙Lunaric AI
 
-A new Flutter project.
+=> A personal AI study companion built for students preparing for every possible olympiad or examination.
 
-## Getting Started
+Lunaric AI is an independent AI projext aimed towards creating a personal and interactive AI companion.
 
-This project is a starting point for a Flutter application.
+## ✨Features
 
-A few resources to get you started if this is your first Flutter project:
+- AI conversations
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- 🌐 Web-enabled AI responses
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🎙️ Voice Interaction
+
+- Image Understanding
+
+- AI Image Generation
+
+- 📚Olympiad Preperation
+
+- Flutter UI
+
+## 🛠️Software/Development Tools
+
+- Python
+- Flutter
+- Dart
+- VS Code
+- Android Studio
+- Git
+- Github
+- OpenRouter
