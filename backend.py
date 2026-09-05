@@ -162,7 +162,7 @@ def analyze(data: AnalyzeRequest):
         "reply": response.choices[0].message.content or ""
     }
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     import os
     import uvicorn
     uvicorn.run(
