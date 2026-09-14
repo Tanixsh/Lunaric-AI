@@ -1,1 +1,39 @@
-{"hosting":{"public":"build/web","ignore":["firebase.json","**/.*","**/node_modules/**"],"rewrites":[{"source":"**","destination":"/index.html"}]},"flutter":{"platforms":{"dart":{"lib/firebase_options.dart":{"projectId":"lunaricai","configurations":{"web":"1:866591050712:web:43b3c657308e111c7c80ad"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "lunaricai",
+          "appId": "1:866591050712:android:dc032b498ced8ccd7c80ad",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "lunaricai",
+          "configurations": {
+            "android": "1:866591050712:android:dc032b498ced8ccd7c80ad",
+            "ios": "1:866591050712:ios:24ccd3dd246b8c047c80ad",
+            "macos": "1:866591050712:ios:24ccd3dd246b8c047c80ad",
+            "web": "1:866591050712:web:43b3c657308e111c7c80ad",
+            "windows": "1:866591050712:web:fa79469124754bd77c80ad"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
