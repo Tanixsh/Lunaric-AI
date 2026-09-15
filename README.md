@@ -4,6 +4,19 @@
 
 Lunaric AI is an independent AI projext aimed towards creating a personal and interactive AI companion.
 
+Try Lunaric AI => https://lunaricai.web.app
+
+Lunaric AI Home Page => https://stardance.hackclub.com/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDIwNDIzLCJwdXIiOiJibG9iX2lkIn19--3571b6724ff4905faf9d1712d7e13f0730ea88b8/Screenshot%20(44).png
+
+
+## Quick Start
+
+Open the live demo:
+
+https://lunaricai.web.app
+
+Create an account or sign in, then explore Chat, Study, Olympiad, and Analyze.
+
 ## Features
 
 - AI conversations
@@ -29,3 +42,16 @@ Lunaric AI is an independent AI projext aimed towards creating a personal and in
 - Github
 - OpenRouter
 - Claude and ChatGPT for debugging
+
+## Run Locally
+
+### Flutter
+
+## Run Locally
+
+### Frontend
+
+```bash
+cd C:\Dev\lunaric_app
+flutter pub get
+flutter run -d chrome
