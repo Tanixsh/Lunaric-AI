@@ -1,57 +1,90 @@
 # Lunaric AI
 
-> A personal AI study companion built for students preparing for every possible olympiad or examination. Lunaric was created by Tanish a 14-year-old developer and has been independent ever since.
+Lunaric AI is an oerational study companion designed to help with schoolwork, exam preparation, Olympiad practice, and learning from questions and images.
 
-Lunaric AI is an independent AI projext aimed towards creating a personal and interactive AI companion.
+Try Lunaric - https://lunaricai.web.app
 
-Try Lunaric AI => https://lunaricai.web.app
+## What Lunaric Does
 
-Lunaric AI Home Page => https://stardance.hackclub.com/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDIwNDIzLCJwdXIiOiJibG9iX2lkIn19--3571b6724ff4905faf9d1712d7e13f0730ea88b8/Screenshot%20(44).png
+Lunaric is built around four main modes:
 
+* **Chat** — Ask academic questions, get guidance and even normal friendly conversations.
+* **Study** — Choose a class, curriculum, subject, topic, and study goal and study accordingly.
+* **Olympiad** — Practice challenging problems across subjects and receive feedback on submitted answers.
+* **Analyze** — Upload questions, diagrams, graphs or other academic images and ask Lunaric to understand them.
 
-## Quick Start
+The app also supports user accounts, voice input, image analysis, and conversation data associated with the signed-in user.
 
-Open the live demo:
+## Try It
 
-https://lunaricai.web.app
+Open the live application:
 
-Create an account or sign in, then explore Chat, Study, Olympiad, and Analyze.
+**https://lunaricai.web.app**
 
-## Features
+Create an account or sign in, then explore the four modes from the home screen.
 
-- AI conversations
+## Tech Stack
 
-- Web-enabled AI responses
+* Flutter
+* Dart
+* Firebase Authentication
+* Cloud Firestore
+* Python
+* FastAPI
+* HTTP APIs
+* Speech-to-text
+* Image analysis
 
-- Voice Interaction
-
-- Image Understanding
-
-- Olympiad Preperation
-
-- Flutter UI
-
-## Software/Development Tools
-
-- Python
-- Flutter
-- Dart
-- VS Code
-- Android Studio
-- Git
-- Github
-- OpenRouter
-- Claude and ChatGPT for debugging
+The Flutter application in this repository provides the main user interface and connects to the backend used for AI requests.
 
 ## Run Locally
 
-### Flutter
-
-## Run Locally
-
-### Frontend
+Clone the repository and enter the project directory:
 
 ```bash
-cd C:\Dev\lunaric_app
+git clone https://github.com/Tanixsh/Lunaric-AI.git
+cd Lunaric-AI
+```
+
+Install the Flutter dependencies:
+
+```bash
 flutter pub get
+```
+
+Run the application in Chrome:
+
+```bash
 flutter run -d chrome
+```
+
+The application requires its configured Firebase services and a reachable backend to use the AI-powered features.
+
+## Authentication
+
+Lunaric uses Firebase Authentication for user accounts.
+
+Supported sign-in methods include:
+
+* Email and password
+* Google
+
+Email/password accounts use email verification before accessing the application.
+
+## How It Works
+
+The Flutter application handles the interface, navigation, authentication, user interaction, and requests from the different modes.
+
+For AI-powered features, the application communicates with the deployed backend rather than exposing the AI service credentials directly in the Flutter client.
+
+Study Mode sends the student's selected learning context to the backend so the generated study content can match their selections.
+
+Olympiad Mode uses the selected subjects, difficulty, and question style when generating practice problems and evaluating answers.
+
+Analyze Mode allows an academic image to be sent for interpretation, making it possible to work with things such as textbook questions, diagrams, graphs, maps, and tables.
+
+Firebase Authentication handles accounts, while Cloud Firestore is used for user-specific data.
+
+## Development
+
+This project was built and developed by Tanish, a 14 year old student.
